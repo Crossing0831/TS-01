@@ -153,6 +153,9 @@
     <ClCompile Include="Title.cpp">
       <Filter>Source Files\scenes</Filter>
     </ClCompile>
+    <ClCompile Include="StageSelect.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
@@ -789,6 +792,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Title.hpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelect.hpp">
       <Filter>Source Files\scenes</Filter>
     </ClInclude>
   </ItemGroup>

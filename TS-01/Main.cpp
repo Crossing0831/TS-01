@@ -1,11 +1,13 @@
 ﻿#include "Common.hpp"
 #include "Title.hpp"
+#include "StageSelect.hpp"
 
 void Main()
 {
 
 	App manager;
 	manager.add<Title>(State::Title);
+	manager.add<StageSelect>(State::StageSelect);
 
 	FontAsset::Register(U"MenuFont",35);
 	FontAsset::Register(U"TitleFont", FontMethod::MSDF, 50, Typeface::Medium);

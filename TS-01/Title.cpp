@@ -10,7 +10,7 @@ void Title::update()
 		RectF btn = { Arg::center(Vec2{Scene::Center().x,kWindowSize.y * 0.55}),250,50 };
 
 		if (btn.leftClicked()) {
-
+			changeScene(State::StageSelect);
 		}
 	}
 	//ゲーム終了ボタン

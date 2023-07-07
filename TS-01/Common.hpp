@@ -8,7 +8,7 @@ const String kConfigFileName = U"";
 enum class State
 {
 	Title,
-	SelectStages,
+	StageSelect,
 	Game,
 	Result
 };
